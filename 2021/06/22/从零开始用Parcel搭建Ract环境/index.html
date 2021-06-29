@@ -14,7 +14,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="">
+  <meta name="description" content="为什么要选Parcel？因为它很轻量化，几乎不需要配置，开箱即用，非常适合写demo。你想用什么写就用什么写，其他的事情交给Parcel就好了。">
   <meta name="author" content="AG">
   <meta name="keywords" content="">
   
@@ -79,54 +79,6 @@
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto text-center">
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/archives/">
-                <i class="iconfont icon-archive-fill"></i>
-                全部
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/">
-                <i class="iconfont icon-category-fill"></i>
-                分类
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/">
-                <i class="iconfont icon-tags-fill"></i>
-                标签
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/about/">
-                <i class="iconfont icon-user-fill"></i>
-                关于
-              </a>
-            </li>
-          
         
         
           <li class="nav-item" id="search-btn">
@@ -216,7 +168,7 @@
             <h1 style="display: none">从零开始用Parcel搭建Ract环境</h1>
             
             <div class="markdown-body">
-              <p>为什么要选Parcel？因为它很轻量化，几乎不需要配置，开箱即用，非常适合写demo。你想用什么写就用什么写，其他的事情交给Parcel就好了。</p>
+              <p>为什么要选Parcel？因为它很轻量化，几乎不需要配置，开箱即用，非常适合写demo。你想用什么写就用什么写，其他的事情交给Parcel就好了。<span id="more"></span></p>
 <h1 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h1><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs stylus">.<br>├── App<span class="hljs-selector-class">.js</span><br>├── App<span class="hljs-selector-class">.less</span><br>├── README<span class="hljs-selector-class">.md</span><br>├── Routes<br>│   ├── PrivateRoute<span class="hljs-selector-class">.js</span><br>│   └── index<span class="hljs-selector-class">.js</span><br>├── index<span class="hljs-selector-class">.html</span><br>├── index<span class="hljs-selector-class">.js</span><br>├── package-lock<span class="hljs-selector-class">.json</span><br>├── package<span class="hljs-selector-class">.json</span><br>└── <span class="hljs-attribute">src</span><br>    ├── components<br>    ├── layout<br>    │   └── TabContainer<span class="hljs-selector-class">.js</span><br>    ├── pages<br>    │   ├── Home<br>    │   │   └── index<span class="hljs-selector-class">.js</span><br>    │   ├── List<br>    │   │   └── index<span class="hljs-selector-class">.js</span><br>    │   ├── Login<br>    │   │   └── index<span class="hljs-selector-class">.js</span><br>    │   └── User<br>    │       └── index<span class="hljs-selector-class">.js</span><br>    ├── store<br>    │   ├── index<span class="hljs-selector-class">.js</span><br>    │   └── user<span class="hljs-selector-class">.js</span><br>    └── utils<br></code></pre></td></tr></table></figure>
 
 <h1 id="初始化项目"><a href="#初始化项目" class="headerlink" title="初始化项目"></a>初始化项目</h1><p>先创建一个<code>package.json</code></p>
@@ -310,6 +262,33 @@
             </div>
 
             
+              <!-- Comments -->
+              <article class="comments" id="comments" lazyload>
+                
+                  
+                
+                
+  <div class="disqus" style="width:100%">
+    <div id="disqus_thread"></div>
+    
+      <script>
+        Fluid.utils.loadComments('#disqus_thread', function() {
+          Fluid.utils.createCssLink('https://cdn.jsdelivr.net/npm/disqusjs@1.3.0/dist/disqusjs.css');
+          Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/disqusjs@1.3.0/dist/disqus.js', function() {
+            new DisqusJS({
+              shortname: 'aggin-cn',
+              apikey: 'Z5qDhlJwaDosoyb9WUySjh4XPttV5gMaYj0vcbcRFWDI1qfjLpiCfyKOAbuBWvXt'
+            });
+          });
+        });
+      </script>
+    
+    <noscript>Please enable JavaScript to view the comments</noscript>
+  </div>
+
+
+              </article>
+            
           </article>
         </div>
       </div>
@@ -371,6 +350,16 @@
   
 
   
+  <!-- 备案信息 -->
+  <div class="beian">
+    <span>
+      <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+        Copyright© 2021 AG 粤ICP备2021078846号-1
+      </a>
+    </span>
+    
+  </div>
+
 
   
 </footer>
