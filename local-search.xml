@@ -112,24 +112,5 @@
   
   
   
-  <entry>
-    <title>一些约定俗成</title>
-    <link href="/2021/06/01/%E4%B8%80%E4%BA%9B%E7%BA%A6%E5%AE%9A%E4%BF%97%E6%88%90/"/>
-    <url>/2021/06/01/%E4%B8%80%E4%BA%9B%E7%BA%A6%E5%AE%9A%E4%BF%97%E6%88%90/</url>
-    
-    <content type="html"><![CDATA[<p>关于中文文案如何排版可以参考这篇<a href="https://github.com/sparanoid/chinese-copywriting-guidelines">中文文案排版指北</a>。<br>我写博客的时候会大量用到MarkDown中的代码块，在代码块里有一些小细节，可以说是先跟大家说好以免造成阅读困难的问题。<span id="more"></span></p><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs jboss-cli"><span class="hljs-comment"># 这个一般是注释的意思，有时候也会值root用户，但是为了避免混淆尽量不用</span><br>$ 这个是在命令行里输入的意思，$指的是当前用户<br><span class="hljs-comment"># 如果前面什么都没有，那可能是命令行的返回，比如</span><br>$ git <span class="hljs-keyword">help</span><br>usage: git [<span class="hljs-params">--version</span>] [<span class="hljs-params">--help</span>] [-C &lt;path&gt;] [-c &lt;name&gt;=&lt;value&gt;]<br>           [<span class="hljs-params">--exec-path</span>[=&lt;path&gt;]] [<span class="hljs-params">--html-path</span>] [<span class="hljs-params">--man-path</span>] [<span class="hljs-params">--info-path</span>]<br>           [-p | <span class="hljs-params">--paginate</span> | -P | <span class="hljs-params">--no-pager</span>] [<span class="hljs-params">--no-replace-objects</span>] [<span class="hljs-params">--bare</span>]<br>           [<span class="hljs-params">--git-dir=</span>&lt;path&gt;] [<span class="hljs-params">--work-tree=</span>&lt;path&gt;] [<span class="hljs-params">--namespace=</span>&lt;name&gt;]<br>           &lt;<span class="hljs-keyword">command</span>&gt; [&lt;args&gt;]<br></code></pre></td></tr></table></figure><p>顺便一提，命令行的语法格式</p><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs gherkin"><span class="hljs-variable">&lt;&gt;</span> 必选参数，<span class="hljs-variable">&lt;arg1 | arg2&gt;</span><br>&#123;&#125; 必选值，[-option &#123;arg1 |<span class="hljs-string"> arg2 </span>|<span class="hljs-string"> arg3&#125;]</span><br><span class="hljs-string">[] 可选参数，[-option1] [-option2] [-option3]</span><br><span class="hljs-string">() 默认值，&#123;(default) </span>|<span class="hljs-string"> arg1 </span>|<span class="hljs-string"> arg2&#125;</span><br><span class="hljs-string"></span>|<span class="hljs-string">互斥，[-option1 </span>|<span class="hljs-string"> -option2 </span>|<span class="hljs-string"> -option3]</span><br><span class="hljs-string">...可以为先前的属性指定多个值</span><br><span class="hljs-string">\命令换到下一行，不应该在此处中断命令语法</span><br></code></pre></td></tr></table></figure>]]></content>
-    
-    
-    <categories>
-      
-      <category>神神叨叨</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
   
 </search>
